@@ -22,7 +22,7 @@
   dict[123] = 'milos'
   ```
   Dictionaries: Keys must be immutable. Which means you can use strings, numbers or tuples 
-  * Initializing variables:  
+* Initializing variables:  
   `a = b = c = 1` (all three are initialized with 1)
   `a, b, c = 1, 2, "john"` (a = 1, b = 2, c = "john")
 
