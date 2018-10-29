@@ -13,5 +13,3 @@ class List:
     def removeLeft(self):
         raise NotImplementedError("method is not implemented")
 
-def test():
-    print("TEST")
