@@ -54,3 +54,31 @@ will eventually go, but has not been written yet (e.g., in stubs for example)
 
 * **ternary operator** a if condition else b
 
+* **classes**  
+  Basic syntax:
+  ```python
+  class ClassName:
+    <statement-1>
+    .
+    .
+    .
+    <statement-N>
+  ```
+  **NOTE** What this basically means is that class definition defines namespace (like functions do), and it's body
+  can contain statements - usually those are function definitions but there could be other constructs like if-else
+  etc. See classes.py file for more details
+  
+* Name mangling:  
+  ```python
+  class A:
+      def __gettext(self):
+          return 'class A'
+  
+  obj = A()
+  # obj.__gettext()  - AttributeError: 'A' object has no attribute '__gettext'
+  
+  print(obj._A__gettext())
+  # >>> class A
+  ```
+
+* TODO
